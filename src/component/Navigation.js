@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React  from "react";
 import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
@@ -10,13 +10,14 @@ const Navigation = () => {
             <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <NavLink to="/postNumbers">PostNumbers</NavLink>
+            <NavLink to="/postNumbers">All Posts</NavLink>
           </li>
           <li>
             <NavLink to="/newPost">New Post</NavLink>
           </li>
         </ul>
       </nav>
+
     </div>
   );
 };
